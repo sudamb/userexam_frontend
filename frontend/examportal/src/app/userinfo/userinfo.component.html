@@ -1,0 +1,28 @@
+<div class="container">
+      <div class="user-info">
+          <form #u="ngForm">
+              <div class="margin-bottom-20">
+                  <span class="user-label">Name</span>
+                  <input class="form-control" name="username" [(ngModel)]="user.name" type="text" placeholder="User name">
+              </div>
+              <div class="margin-bottom-20">
+                  <span class="user-label">Contact Number</span>
+                  <input class="form-control" name="contNumber" [(ngModel)]="user.contNumber" type="tel" placeholder="Contact Number">
+              </div>
+              <div class="margin-bottom-20">
+                  <span class="user-label">Email</span>
+                  <input class="form-control" name="email" [(ngModel)]="user.email" type="email" placeholder="Email">
+              </div>
+              <div class="margin-bottom-20">
+                  <span class="user-label">Exam Date</span>
+                  <input class="form-control" name="examDate" [(ngModel)]="user.examDate" type="date" placeholder="Exam date">
+              </div>
+              <div class="margin-bottom-20">
+                  <span class="user-label">Exam Time</span>
+                  <input class="form-control" name="examTime" [(ngModel)]="user.examTime" type="time" placeholder="Exam Time">
+              </div>
+              <button class="custom-blue pull-right" (click)="addUserInfo()">Submit</button>
+              <div class="clear-both"></div>
+          </form>
+      </div>
+</div>

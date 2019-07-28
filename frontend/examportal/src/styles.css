@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+.container{
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 400px;
+}
+.form-control{
+    padding: 6px 15px;
+}
+.margin-bottom-20{
+    margin-bottom: 20px;
+}
+.margin-top-20{
+    margin-top: 20px;
+}
+.custom-blue{
+    background-color:#64a2ff;
+    color: #fff;
+    border-radius: 3px;
+    width: 150px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+.pull-right{
+    float: right;
+}
+.clear-both{
+    clear: both;
+}
